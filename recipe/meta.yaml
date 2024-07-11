@@ -1,5 +1,5 @@
 {% set name = "cogwheel-pe" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cogwheel_pe-{{ version }}.tar.gz
-  sha256: e728483d6a701b8d0035f120c3541c847e351148038d49951475e32dd5dfafdf
+  sha256: 5394c034f5518719b60d585b13aea8be7ce02321487270632f198371830a3c62
 
 build:
   noarch: python
