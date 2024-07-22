@@ -1,5 +1,5 @@
 {% set name = "cogwheel-pe" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cogwheel_pe-{{ version }}.tar.gz
-  sha256: e728483d6a701b8d0035f120c3541c847e351148038d49951475e32dd5dfafdf
+  sha256: 709f7a1df3c8dafcb6b4cb11da2632d7ed1272fa9a4cfffa8a95f207ed75a312
 
 build:
   noarch: python
@@ -36,7 +36,6 @@ requirements:
     - gwpy
     - dynesty
     - nautilus-sampler
-    - pymultinest
     - zeus-mcmc
 
 test:
