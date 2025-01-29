@@ -21,7 +21,7 @@ requirements:
     - setuptools-scm >=8
     - pip
   run:
-    - python-lalsimulation
+    - lalsimulation
     - python >={{ python_min }}
     - ipykernel
     - ipympl
